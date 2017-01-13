@@ -1,0 +1,3 @@
+[submodule "accounts/moc-prometheus/deploy"]
+	path = accounts/moc-prometheus/deploy
+	url = https://github.com/nubisproject/nubis-deploy.git

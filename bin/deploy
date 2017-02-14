@@ -74,6 +74,23 @@ status () {
   cd $ACCOUNT_DIR && aws-vault exec -n "${ACCOUNT}-bootstrap" -- terraform output | sed -e's/^/  /g'
 }
 
+cleanup () {
+  hash amicleaner 2>/dev/null || message_print CRITICAL "Please install amicleaner to use this build tool. https://github.com/bonclay7/aws-amicleaner"
+  hash cleanup-packer-aws-resources 2>/dev/null || message_print CRITICAL "Please install cleanup-packer-aws-resources to use this build tool. https://github.com/AndrewFarley/farley-aws-missing-tools/tree/master/cleanup-packer-aws-resources"
+
+  echo "Running cleanup for $ACCOUNT in $ACCOUNT_DIR"
+
+  echo "Cleaning Packer Artifacts"
+  aws-vault exec --assume-role-ttl=60m "${ACCOUNT}-bootstrap" -- cleanup-packer-aws-resources
+
+  #XXX: Here if we used instead --keep-previous 10 --mapping-values "project platform" we would only keep the last 10 builds
+  echo "Cleaning Duplicate AMIs"
+  for region in $(aws-vault exec "${ACCOUNT}-bootstrap" -- aws --region us-west-2 ec2 describe-regions | jq -r .Regions[].RegionName | sort); do
+    echo "Cleaning in $region"
+    AWS_DEFAULT_REGION=$region aws-vault exec --assume-role-ttl=60m "${ACCOUNT}-bootstrap" -- amicleaner -f --mapping-key tags --keep-previous 1 --mapping-values "project platform version"
+  done
+}
+
 admins () {
   echo "Showing admins for $ACCOUNT in $ACCOUNT_DIR"
   
@@ -105,7 +122,7 @@ accounts () {
 }
 
 help () {
- echo "Usage: $0 [plan|apply|init|admins|taint-admin-access-keys|status|update|help] account-name"
+ echo "Usage: $0 [plan|apply|init|admins|taint-admin-access-keys|status|update|cleanup|help] account-name"
 }
 
 hash aws 2>/dev/null || message_print CRITICAL "Please install the AWS CLI API to use this build tool. https://aws.amazon.com/cli/"
@@ -155,6 +172,12 @@ case "$1" in
 	shift 2
 	prep
 	status
+	;;
+   cleanup)
+	ACCOUNT=$2
+	shift 2
+	prep
+	cleanup
 	;;
    update)
 	ACCOUNT=$2

@@ -4,3 +4,6 @@
 [submodule "accounts/nubis-market/deploy"]
 	path = accounts/nubis-market/deploy
 	url = https://github.com/nubisproject/nubis-deploy.git
+[submodule "accounts/nubis-training/deploy"]
+	path = accounts/nubis-training/deploy
+	url = https://github.com/nubisproject/nubis-deploy.git

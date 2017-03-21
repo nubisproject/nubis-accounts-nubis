@@ -16,3 +16,6 @@
 [submodule "accounts/nubis-lab/deploy"]
 	path = accounts/nubis-lab/deploy
 	url = https://github.com/nubisproject/nubis-deploy.git
+[submodule "accounts/nubis-limed/deploy"]
+	path = accounts/nubis-limed/deploy
+	url = http://github.com/nubisproject/nubis-deploy.git

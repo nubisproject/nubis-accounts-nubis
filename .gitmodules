@@ -22,3 +22,6 @@
 [submodule "accounts/nubis-jd/deploy"]
 	path = accounts/nubis-jd/deploy
 	url = https://github.com/nubisproject/nubis-deploy.git
+[submodule "accounts/bugzilla/deploy"]
+	path = accounts/bugzilla/deploy
+	url = https://github.com/nubisproject/nubis-deploy.git

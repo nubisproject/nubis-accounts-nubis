@@ -6,7 +6,8 @@
 	url = https://github.com/nubisproject/nubis-deploy.git
 [submodule "accounts/nubis-training/deploy"]
 	path = accounts/nubis-training/deploy
-	url = https://github.com/nubisproject/nubis-deploy.git
+    url = https://github.com/nubisproject/nubis-deploy.git
+    branch = develop
 [submodule "accounts/akamai/deploy"]
 	path = accounts/akamai/deploy
 	url = https://github.com/nubisproject/nubis-deploy.git

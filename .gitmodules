@@ -28,3 +28,6 @@
 [submodule "accounts/bugzilla/deploy"]
 	path = accounts/bugzilla/deploy
 	url = https://github.com/nubisproject/nubis-deploy.git
+[submodule "accounts/webcompat-alexa/deploy"]
+	path = accounts/webcompat-alexa/deploy
+	url = http://github.com/nubisproject/nubis-deploy.git

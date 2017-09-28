@@ -38,3 +38,6 @@
 [submodule "accounts/mixed-reality/deploy"]
 	path = accounts/mixed-reality/deploy
 	url = http://github.com/nubisproject/nubis-deploy.git
+[submodule "accounts/inhuman-ads/deploy"]
+	path = accounts/inhuman-ads/deploy
+	url = http://github.com/nubisproject/nubis-deploy.git

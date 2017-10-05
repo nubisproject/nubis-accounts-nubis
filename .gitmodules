@@ -13,8 +13,8 @@
 	url = https://github.com/nubisproject/nubis-deploy.git
 [submodule "accounts/nubis-gozer/deploy"]
 	path = accounts/nubis-gozer/deploy
-	url = https://github.com/nubisproject/nubis-deploy.git
-        branch = develop
+	url = https://github.com/gozer/nubis-deploy.git
+	branch = feature/arena
 [submodule "accounts/nubis-lab/deploy"]
 	path = accounts/nubis-lab/deploy
 	url = https://github.com/nubisproject/nubis-deploy.git

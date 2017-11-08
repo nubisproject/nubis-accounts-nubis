@@ -44,3 +44,6 @@
 [submodule "accounts/mozilla-netops/deploy"]
 	path = accounts/mozilla-netops/deploy
 	url = https://github.com/nubisproject/nubis-deploy.git
+[submodule "accounts/mozilla-ea/deploy"]
+	path = accounts/mozilla-ea/deploy
+	url = https://github.com/nubisproject/nubis-deploy.git

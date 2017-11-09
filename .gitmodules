@@ -47,3 +47,6 @@
 [submodule "accounts/mozilla-ea/deploy"]
 	path = accounts/mozilla-ea/deploy
 	url = https://github.com/nubisproject/nubis-deploy.git
+[submodule "accounts/tpe-marketing/deploy"]
+	path = accounts/tpe-marketing/deploy
+	url = https://github.com/nubisproject/nubis-deploy.git

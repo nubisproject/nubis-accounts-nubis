@@ -41,3 +41,12 @@
 [submodule "accounts/inhuman-ads/deploy"]
 	path = accounts/inhuman-ads/deploy
 	url = http://github.com/nubisproject/nubis-deploy.git
+[submodule "accounts/mozilla-netops/deploy"]
+	path = accounts/mozilla-netops/deploy
+	url = https://github.com/nubisproject/nubis-deploy.git
+[submodule "accounts/mozilla-ea/deploy"]
+	path = accounts/mozilla-ea/deploy
+	url = https://github.com/nubisproject/nubis-deploy.git
+[submodule "accounts/tpe-marketing/deploy"]
+	path = accounts/tpe-marketing/deploy
+	url = https://github.com/nubisproject/nubis-deploy.git

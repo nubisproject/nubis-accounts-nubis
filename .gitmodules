@@ -56,3 +56,6 @@
 [submodule "accounts/mozilla-research/deploy"]
 	path = accounts/mozilla-research/deploy
 	url = https://github.com/nubisproject/nubis-deploy.git
+[submodule "accounts/mozilla-iam/deploy"]
+	path = accounts/mozilla-iam/deploy
+	url = https://github.com/nubisproject/nubis-deploy.git

@@ -65,3 +65,6 @@
 [submodule "accounts/mozilla-iam-ctf/deploy"]
 	path = accounts/mozilla-iam-ctf/deploy
 	url = https://github.com/nubisproject/nubis-deploy.git
+[submodule "accounts/mozilla-atlassian/deploy"]
+	path = accounts/mozilla-atlassian/deploy
+	url = https://github.com/nubisproject/nubis-deploy.git

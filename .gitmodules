@@ -74,3 +74,6 @@
 [submodule "accounts/connected-workplace/deploy"]
 	path = accounts/connected-workplace/deploy
 	url = https://github.com/nubisproject/nubis-deploy.git
+[submodule "accounts/mozilla-sumo/deploy"]
+	path = accounts/mozilla-sumo/deploy
+	url = https://github.com/nubisproject/nubis-deploy.git

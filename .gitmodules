@@ -22,10 +22,6 @@
 	path = accounts/nubis-limed/deploy
     url = https://github.com/nubisproject/nubis-deploy.git
     branch = develop
-[submodule "accounts/nubis-jd/deploy"]
-	path = accounts/nubis-jd/deploy
-	url = https://github.com/nubisproject/nubis-deploy.git
-        branch = develop
 [submodule "accounts/bugzilla/deploy"]
 	path = accounts/bugzilla/deploy
 	url = https://github.com/nubisproject/nubis-deploy.git
@@ -70,4 +66,10 @@
 	url = https://github.com/nubisproject/nubis-deploy.git
 [submodule "accounts/mozilla-poc123/deploy"]
 	path = accounts/mozilla-poc123/deploy
+	url = https://github.com/nubisproject/nubis-deploy.git
+[submodule "accounts/connected-workplace/deploy"]
+	path = accounts/connected-workplace/deploy
+	url = https://github.com/nubisproject/nubis-deploy.git
+[submodule "accounts/mozilla-sumo/deploy"]
+	path = accounts/mozilla-sumo/deploy
 	url = https://github.com/nubisproject/nubis-deploy.git

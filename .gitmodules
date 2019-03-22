@@ -15,9 +15,6 @@
 	path = accounts/nubis-gozer/deploy
 	url = https://github.com/nubisproject/nubis-deploy.git
     branch = develop
-[submodule "accounts/nubis-lab/deploy"]
-	path = accounts/nubis-lab/deploy
-	url = https://github.com/nubisproject/nubis-deploy.git
 [submodule "accounts/nubis-limed/deploy"]
 	path = accounts/nubis-limed/deploy
     url = https://github.com/nubisproject/nubis-deploy.git
@@ -36,9 +33,6 @@
 	url = https://github.com/nubisproject/nubis-deploy.git
 [submodule "accounts/inhuman-ads/deploy"]
 	path = accounts/inhuman-ads/deploy
-	url = https://github.com/nubisproject/nubis-deploy.git
-[submodule "accounts/mozilla-netops/deploy"]
-	path = accounts/mozilla-netops/deploy
 	url = https://github.com/nubisproject/nubis-deploy.git
 [submodule "accounts/tpe-marketing/deploy"]
 	path = accounts/tpe-marketing/deploy
@@ -63,12 +57,6 @@
 	url = https://github.com/nubisproject/nubis-deploy.git
 [submodule "accounts/mozilla-atlassian/deploy"]
 	path = accounts/mozilla-atlassian/deploy
-	url = https://github.com/nubisproject/nubis-deploy.git
-[submodule "accounts/mozilla-poc123/deploy"]
-	path = accounts/mozilla-poc123/deploy
-	url = https://github.com/nubisproject/nubis-deploy.git
-[submodule "accounts/connected-workplace/deploy"]
-	path = accounts/connected-workplace/deploy
 	url = https://github.com/nubisproject/nubis-deploy.git
 [submodule "accounts/mozilla-sumo/deploy"]
 	path = accounts/mozilla-sumo/deploy

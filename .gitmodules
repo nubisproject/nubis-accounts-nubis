@@ -33,9 +33,6 @@
 [submodule "accounts/mozilla-iam/deploy"]
 	path = accounts/mozilla-iam/deploy
 	url = https://github.com/nubisproject/nubis-deploy.git
-[submodule "accounts/mozilla-mdn/deploy"]
-	path = accounts/mozilla-mdn/deploy
-	url = https://github.com/nubisproject/nubis-deploy.git
 [submodule "accounts/mozilla-ml/deploy"]
 	path = accounts/mozilla-ml/deploy
 	url = https://github.com/nubisproject/nubis-deploy.git

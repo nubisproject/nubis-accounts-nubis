@@ -42,6 +42,3 @@
 [submodule "accounts/mozilla-atlassian/deploy"]
 	path = accounts/mozilla-atlassian/deploy
 	url = https://github.com/nubisproject/nubis-deploy.git
-[submodule "accounts/mozilla-sumo/deploy"]
-	path = accounts/mozilla-sumo/deploy
-	url = https://github.com/nubisproject/nubis-deploy.git

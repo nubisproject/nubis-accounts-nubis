@@ -15,9 +15,6 @@
 [submodule "accounts/inhuman-ads/deploy"]
 	path = accounts/inhuman-ads/deploy
 	url = https://github.com/nubisproject/nubis-deploy.git
-[submodule "accounts/it-avops/deploy"]
-	path = accounts/it-avops/deploy
-	url = https://github.com/nubisproject/nubis-deploy.git
 [submodule "accounts/mozilla-research/deploy"]
 	path = accounts/mozilla-research/deploy
 	url = https://github.com/nubisproject/nubis-deploy.git

@@ -1,28 +1,8 @@
 [submodule "accounts/nubis-market/deploy"]
 	path = accounts/nubis-market/deploy
 	url = https://github.com/nubisproject/nubis-deploy.git
-[submodule "accounts/nubis-gozer/deploy"]
-	path = accounts/nubis-gozer/deploy
-	url = https://github.com/nubisproject/nubis-deploy.git
-    branch = develop
-[submodule "accounts/nubis-limed/deploy"]
-	path = accounts/nubis-limed/deploy
-    url = https://github.com/nubisproject/nubis-deploy.git
-    branch = develop
-[submodule "accounts/rust-dev/deploy"]
-	path = accounts/rust-dev/deploy
-	url = https://github.com/nubisproject/nubis-deploy.git
-[submodule "accounts/inhuman-ads/deploy"]
-	path = accounts/inhuman-ads/deploy
-	url = https://github.com/nubisproject/nubis-deploy.git
-[submodule "accounts/mozilla-research/deploy"]
-	path = accounts/mozilla-research/deploy
-	url = https://github.com/nubisproject/nubis-deploy.git
 [submodule "accounts/mozilla-iam/deploy"]
 	path = accounts/mozilla-iam/deploy
-	url = https://github.com/nubisproject/nubis-deploy.git
-[submodule "accounts/mozilla-ml/deploy"]
-	path = accounts/mozilla-ml/deploy
 	url = https://github.com/nubisproject/nubis-deploy.git
 [submodule "accounts/mozilla-iam-ctf/deploy"]
 	path = accounts/mozilla-iam-ctf/deploy
